@@ -1,7 +1,7 @@
 const API = {
-    files: "http://localhost:8081/api/files",
-    folders: "http://localhost:8082/api/folders",
-    search: "http://localhost:8083/api/search"
+    files: "https://google-drive-file-api-subrat.onrender.com/api/files",
+    folders: "https://folder-service.onrender.com/api/folders",
+    search: "https://search-service-v9t4.onrender.com/api/search"
 };
 
 async function requestJson(url, options = {}) {
